@@ -7,13 +7,21 @@
     <title>Voting Info</title>
 </head>
 <body>
-    <h1>do u wanna vote o.o</h1>
+    <h1 id="startMsg">do u wanna vote c:</h1>
     <div>
         <form>
-            <label for="age">Pls enter ur age c:</label>
+            <label for="age">Pls enter ur age o.o</label>
             <input id="age" type="number">
             <button type="submit">Submit</button>
-        </form>    
+        </form>
+        <div id="voteInfo" class="hidden">
+            <h2>here is what u need 2 vote</h2>
+            register 2 vote <a href="https://secure.sos.state.or.us/orestar/vr/register.do?lang=eng&source=SOS">here</a> 
+        </div>
+
+        <div id="underAge" class="hidden">
+            <h1>ur 2 young 2 vote rn x.x</h1>
+        </div>
     </div>
     <script src="js/scripts.js"></script>
 </body>
